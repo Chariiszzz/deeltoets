@@ -3,7 +3,7 @@
 
 <head>
 	<title>Formulier</title>
-     <meta http-equiv="Content-type" content="text/html;charset=utf-8" />
+    <meta charset="UTF-8">
 </head>
 
 <body>
@@ -58,26 +58,78 @@
 
 		<fieldset>
 			<legend>Project</legend>
-	
-			<label for="opmerking1">Opmerking</label>
-			<textarea rows="4" cols="50" id="opmerking1"></textarea>
+
+				<label for="titel">Titel</label>
+				<input type="text" id="titel">
+
+				<label for="opdracht">Opdrachtomschrijving</label>
+				<textarea rows="4" cols="50" id="opdracht"></textarea>
+
+				<label for="doelgroep">Doelgroepomschrijving</label>
+				<textarea rows="4" cols="50" id="doelgroep"></textarea>
+
+				<label for="looptijd">Looptijd</label>
+				<textarea rows="4" cols="50" id="looptijd"></textarea>
+
+				<label for="deadline">Deadline</label>
+				<textarea rows="4" cols="50" id="deadline"></textarea>
+
+
+				<label>Geschikt voor</label>
+
+				<select>
+					<option value="eerstejaars">Eerstejaars studenten</option>
+					<option value="tweedejaars">Tweedejaars studenten</option>
+					<option value="derdejaars">Derdejaars studenten</option>
+					<option value="afstudeerr">Afstudeer studenten</option>
+					<option value="onbekendd">Onbekend</option>
+				</select>
+
+				<label for="opmerking">Opmerking</label>
+
+				<textarea rows="4" cols="50" id="opmerking"></textarea>
 		</fieldset>
+
+		
 
 		<fieldset>
 			<legend>Stage</legend>
+
+			<label>Geschikt voor</label>
+
+			<select>
+				<option value="tweedejaars">Tweedejaars studenten</option>
+				<option value="afstudeer">Afstudeer studenten</option>
+				<option value="onbekend">Onbekend</option>
+			</select>
+
+			<select>
+				<option value="10">10 weken</option>
+				<option value="20">20 weken</option>
+			</select>
+
+			<p>Begin datum<p>
+
+			<input type="date" id="myDate" value="2014-02-09">
+
+			<p>Beschrijving werkzaamheden</p>
+
+			<label for="stagewerkzaamheden">Beschrijving stagewerkzaamheden</label>
+			<textarea rows="4" cols="50" id="stagewerkzaamheden"></textarea>
+
 
 			<p>Beschrijving stagebedrijf</p>
 
 			<label for="bedrijfsnaam">1. Bedrijfsnaam</label>
 			<input type="text" id="bedrijfsnaam">
 
-			<label for="adres">2. Adres</label>
+			<label for="adres1">2. Adres</label>
 			<input type="text" id="adres1">
 
-			<label for="postcode">3. Postcode</label>
+			<label for="postcode1">3. Postcode</label>
 			<input type="text" id="postcode1">
 
-			<label for="plaats">4. Plaats</label>
+			<label for="plaats1">4. Plaats</label>
 			<input type="text" id="plaats1">
 
 			<label for="sector">5. Sector</label>
@@ -86,8 +138,8 @@
 			<label for="corebusiness">6. Core Business</label>
 			<input type="text" id="corebusiness">
 
-			<label for="opmerking">Opmerking</label>
-			<textarea rows="4" cols="50" id="opmerking"></textarea>
+			<label for="opmerking1">Opmerking</label>
+			<textarea rows="4" cols="50" id="opmerking1"></textarea>
 		</fieldset>
 
 				
